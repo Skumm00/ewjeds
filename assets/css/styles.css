@@ -627,10 +627,11 @@ button:hover {
 }
 .card {
     width:50%;
-    height:25rem;
+    height:35rem;
     font-family:sans;
   /* Change background color */
- background:#fff;
+ background:var(--body-color);
+  color:var(--text-color);
 
   /* Add border */
   border: 1px solid #bacdd8;
